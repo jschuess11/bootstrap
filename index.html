@@ -15,6 +15,7 @@
       integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Hello, world!</title>
   </head>
@@ -23,8 +24,6 @@
     <h3 class="text-center">
       Here are some buttons that look cool and have zero function... for now!
     </h3>
-
-    <!-- I like the way this looks on the desktop but when shrinking it takes the text vertically. I'm sure I'll learn why soon. -->
 
     <div class="container">
       <div class="row">
@@ -77,34 +76,52 @@
     <br />
     <br />
     <br />
-    <div class="container">
+    <div class="container-fluid flex-nowrap">
       <div class="row justify-content-center">
         <div class="col-3 card text-center border-dark rounded bg-dark m-2">
           <div class="card-body">
-            <button type="button" class="btn btn-primary width-auto m-2 w-50">
+            <button
+              type="button"
+              class="btn set2 btn-primary text-nowrap responsive-width width-auto m-2 w-50"
+            >
               Primary
             </button>
-            <button type="button" class="btn btn-secondary width-auto m-2 w-50">
+            <button
+              type="button"
+              class="btn set2  btn-secondary text-nowrap responsive-width width-auto m-2 w-50"
+            >
               Secondary
             </button>
           </div>
         </div>
         <div class="col-3 card text-center border-dark rounded bg-dark m-2">
           <div class="card-body">
-            <button type="button" class="btn btn-success width-auto m-2 w-50">
+            <button
+              type="button"
+              class="btn set2 btn-success text-nowrap responsive-width width-auto m-2 w-50"
+            >
               Success
             </button>
-            <button type="button" class="btn btn-danger width-auto m-2 w-50">
+            <button
+              type="button"
+              class="btn set2 btn-danger text-nowrap responsive-width width-auto m-2 w-50"
+            >
               Failure
             </button>
           </div>
         </div>
         <div class="col-3 card text-center border-dark rounded bg-dark m-2">
           <div class="card-body">
-            <button type="button" class="btn btn-warning width-auto m-2 w-50">
+            <button
+              type="button"
+              class="btn set2 btn-warning text-nowrap responsive-width width-auto m-2 w-50"
+            >
               Warning
             </button>
-            <button type="button" class="btn btn-info width-auto m-2 w-50">
+            <button
+              type="button"
+              class="btn set2 btn-info text-nowrap responsive-width width-auto m-2 w-50"
+            >
               Info
             </button>
           </div>
@@ -117,10 +134,16 @@
           class="col-3 card text-center border-dark rounded bg-secondary m-2"
         >
           <div class="card-body">
-            <button type="button" class="btn btn-light width-auto m-2 w-50">
+            <button
+              type="button"
+              class="btn set2 btn-light text-nowrap responsive-width width-auto m-2 w-50"
+            >
               Light
             </button>
-            <button type="button" class="btn btn-dark width-auto m-2 w-50">
+            <button
+              type="button"
+              class="btn set2 btn-dark text-nowrap responsive-width width-auto m-2 w-50"
+            >
               Dark
             </button>
           </div>
